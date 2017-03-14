@@ -1,3 +1,8 @@
+$('#myDiv').click(function(){
+    alert("The paragraph was clicked.");
+
+});
+
 function allowDrop(ev) {
     ev.preventDefault();
 }
@@ -12,4 +17,7 @@ function drop(ev) {
     ev.target.appendChild(document.getElementById(data));
     $("#tuhkur").after("<p>Tuhkur edukalt päästetud!</p>");
 }
-/* Muutused! Veel muutusi */
+$('#myDiv').click(function(){
+    alert("The paragraph was clicked.");
+
+});
