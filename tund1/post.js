@@ -15,4 +15,22 @@ function drop(ev) {
 function vasak() {
                alert("Vajutasid edukalt nupule")
             }
-/**/
+/*
+document.oncontextmenu=RightMouseDown;
+document.onmousedown = mouseDown; 
+
+
+
+function mouseDown(e) {
+    if (e.which==3) {//righClick
+        alert("Right-click menu goes here");
+    }
+}
+
+
+function RightMouseDown() { return false; }
+*/
+ function RightClickFunction() {
+alert("Right-click menu goes here");
+  return false;
+ }
