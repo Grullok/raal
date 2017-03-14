@@ -12,3 +12,4 @@ function drop(ev) {
     ev.target.appendChild(document.getElementById(data));
     $("tuhkur").after("<p>Tuhkur edukalt päästetud!</p>");
 }
+/* Muutused! */
