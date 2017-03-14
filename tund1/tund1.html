@@ -7,7 +7,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 <body>
-    <div id="myDiv">Some Content</div>
 <h1> Esimene tund </h1>
 <!--- See on WIP --->
 <h2> Örgonoomika </h2>
@@ -46,8 +45,16 @@ Kolmekordne klikk – Vasaku nupu kolmekordne vajutamine väikeste vahedega, loe
 <div id="tuhkur">
   <h2> Mõned hiire harjutused </h2>
     <br>
+   <hr>
+    <h3>Vasak klahv on hiire kõige enim kasutatud nupp. Sellega saab avada faile, orienteeruda arvutis ja internetis, teksti aktiveerida, objekte ringi tõsta jne.
+    <br>
+    Proovi vasaku klahviga all oleva nupu peale vajutada.</h3>
+     <form>
+         <input type="button" onclick="vasak()" value="Vajuta mind" />
+      </form>
+<hr>
     
-    <h3>Hiire on võimalik asju tõsta, kui sa ased hiire tõstetavale objektile peale, hoiad vasakut klahvi all ja liigutad hiirt et seda liigutada. Kui oled selle hiirega liigutanud sinna kuhu sa selle soovid asetada, tuleb lihtsalt selle kohal vasak klahv lahti lasta.</h3>
+    <h3>Hiire on võimalik asju tõsta, kui sa asetad hiire tõstetavale objektile peale, hoiad vasakut klahvi all ja liigutad hiirt et seda tõsta. Kui oled selle hiirega liikunud sinna kuhu sa selle soovid asetada, tuleb lihtsalt selle kohal vasak klahv lahti lasta.</h3>
     <br>
   <p>Aita tuhkur tagasi metsa teda tõstes</p>
 
@@ -55,6 +62,6 @@ Kolmekordne klikk – Vasaku nupu kolmekordne vajutamine väikeste vahedega, loe
   <br>
   <img id="drag1" src="ferret.png" draggable="true" ondragstart="drag(event)" width="336" height="69">
 </div>
-
+    <hr>
 </body>
 </html>
