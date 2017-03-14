@@ -9,3 +9,8 @@
 .img {
 display: inline;
 }
+.button {
+    outline-color:crimson;
+    color:aquamarine;
+    box-sizing: border-box
+}

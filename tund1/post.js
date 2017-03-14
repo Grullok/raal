@@ -31,6 +31,6 @@ function mouseDown(e) {
 function RightMouseDown() { return false; }
 */
  function RightClickFunction() {
-alert("Right-click menu goes here");
+alert("Vajutasid edukalt parenake nupule.");
   return false;
  }
