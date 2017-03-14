@@ -10,5 +10,5 @@ function drop(ev) {
     ev.preventDefault();
     var data = ev.dataTransfer.getData("text");
     ev.target.appendChild(document.getElementById(data));
-    $("p").after("<p>Tuhkur edukalt päästetud!</p>");
+    $("tuhkur").after("<p>Tuhkur edukalt päästetud!</p>");
 }
