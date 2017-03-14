@@ -15,3 +15,4 @@ function drop(ev) {
 function vasak() {
                alert("Vajutasid edukalt nupule")
             }
+/**/
