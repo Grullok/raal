@@ -6,11 +6,39 @@
   /* */  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAYklEQVQoU2MUzlP9z4AErCMZGI4uRxaBsBmRFYIUwQC6YtIVIpuGzVS4iUQpxKYI3VSwicgKzSe9YDiZJ4HhKUa/46jBg64QpAMUAii+BgkWvX7B0CeKMBFmNIZCzKCGiAAAI1spfbSN7hEAAAAASUVORK5CYII=
     ) repeat;
 }
-.img {
-display: inline;
+/*.button {
+    border-radius: 12px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
-.button {
-    outline-color:crimson;
-    color:aquamarine;
-    box-sizing: border-box
+*/
+.nupp {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
+
+.nupp {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+
+.nupp:hover {
+    background-color: #4CAF50;
+    color: white;
